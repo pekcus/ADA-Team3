@@ -1,0 +1,41 @@
+<!---  ***** "DRESS-UP GAME" SAMPLE WEBSITE ***** --->
+<!doctype html>
+<html lang="en">
+<!---  ********** HEAD ********** --->
+ <head>
+ <meta charset="utf-8">
+ <style>
+	.draggable {
+		position: absolute;
+		height: 396px;
+		width: 264px;
+	}
+	.draggable img {
+		user-select: none;       /* disables highlighting */
+		pointer-events: none;    /* disables clicking/dragging */
+	}
+ </style> 
+ <title>H&M Dress-Up</title>
+ </head>
+ 
+<!---  ********** BODY ********** --->
+ <body>
+ 	<div class="draggable">
+		<img src="top.png"/>
+	</div>
+	<div class="draggable">
+		<img src="pants.png"/>
+	</div>
+	<div class="draggable">
+		<img src="dress.png"/>
+	</div>
+	<!---<script src="libraries/replace-color.js"></script>
+	<script src="libraries/utils/convert-color.js"></script>
+	<script src="libraries/utils/get-delta.js"></script>
+	<script src="libraries/utils/is-number.js"></script>
+	<script src="libraries/utils/replace-color-error.js"></script>
+	<script src="libraries/utils/validate-colors.js"></script>--->
+	<script src="libraries/jimp.js"></script>
+	<script src="drag_drop.js"></script>
+ </body>
+</html>
