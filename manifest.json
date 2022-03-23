@@ -1,0 +1,30 @@
+{
+    "name": "Dress Up!",
+    "description": "ADA-JAM3 project that allows users to add clothing items to their closet and then go to the page to drag and drop outfits together.",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "permissions": ["storage", "activeTab", "contextMenus", "tabs"],
+
+    "browser_action": {
+        "default_icon": {                
+            "16": "ext_icon16.png",
+            "32": "ext_icon32.png",
+            "48": "ext_icon48.png",
+            "128": "ext_icon128.png"
+        },
+        "default_title": "H&M Dress Up"
+      },
+
+    "icons": {
+        "16": "ext_icon16.png",
+        "32": "ext_icon32.png",
+        "48": "ext_icon48.png",
+        "128": "ext_icon128.png"
+    },
+
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    }
+}
