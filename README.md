@@ -32,4 +32,5 @@ One of the biggest drawbacks to online shopping is the lack of the “fitting ro
 ## To Run
 
 `clone git repo
+
 go to chrome://extensions/ and press *load unpacked* and upload the repo folder`
