@@ -35,9 +35,9 @@ var item = null
 cX = 0
 document.querySelectorAll(".draggable").forEach(function (element) {
     element.addEventListener("mousedown", selectItem)
-	element.style.left = 60 + cX + "px"
+	element.style.left = 40 + cX + "px"
 	element.style.top = 60 + "px"
-	cX += 60
+	cX += 40
 })
 function selectItem(event) {
     item = event.target
